@@ -1,12 +1,12 @@
 {
     "name": "slingx",
     "description": "A comprehensive toolkit AEM Administrators for Sling CRUD Operations",
-    "version": "0.0.8",
+    "version": "1.0.0",
     "author": "Adobe",
     "bin": {
         "slingx": "./bin/run"
     },
-    "bugs": "https://github.com/2019/slingx/issues",
+    "bugs": "https://github.com/adobe/slingx/issues",
     "dependencies": {
         "@oclif/command": "^1.5.18",
         "@oclif/config": "^1.13.2",

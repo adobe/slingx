@@ -19,7 +19,7 @@ $ npm install -g slingx
 $ slingx COMMAND
 running command...
 $ slingx (-v|--version|version)
-slingx/0.0.8 darwin-x64 node-v10.4.1
+slingx/1.0.0 darwin-x64 node-v10.13.0
 $ slingx --help [COMMAND]
 USAGE
   $ slingx COMMAND
@@ -28,18 +28,13 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-- [slingx](#slingx)
-- [Usage](#usage)
-- [Commands](#commands)
-  - [`slingx copy`](#slingx-copy)
-  - [`slingx create`](#slingx-create)
-  - [`slingx delete`](#slingx-delete)
-  - [`slingx help [COMMAND]`](#slingx-help-command)
-  - [`slingx import`](#slingx-import)
-  - [`slingx move`](#slingx-move)
-  - [`slingx query`](#slingx-query)
-  - [Contributing](#contributing)
-  - [Licensing](#licensing)
+* [`slingx copy`](#slingx-copy)
+* [`slingx create`](#slingx-create)
+* [`slingx delete`](#slingx-delete)
+* [`slingx help [COMMAND]`](#slingx-help-command)
+* [`slingx import`](#slingx-import)
+* [`slingx move`](#slingx-move)
+* [`slingx query`](#slingx-query)
 
 ## `slingx copy`
 
@@ -50,7 +45,7 @@ USAGE
   $ slingx copy
 ```
 
-_See code: [src/commands/copy.js](https://github.com/2019/slingx/blob/v0.0.8/src/commands/copy.js)_
+_See code: [src/commands/copy.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/copy.js)_
 
 ## `slingx create`
 
@@ -61,7 +56,7 @@ USAGE
   $ slingx create
 ```
 
-_See code: [src/commands/create.js](https://github.com/2019/slingx/blob/v0.0.8/src/commands/create.js)_
+_See code: [src/commands/create.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/create.js)_
 
 ## `slingx delete`
 
@@ -72,7 +67,7 @@ USAGE
   $ slingx delete
 ```
 
-_See code: [src/commands/delete.js](https://github.com/2019/slingx/blob/v0.0.8/src/commands/delete.js)_
+_See code: [src/commands/delete.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/delete.js)_
 
 ## `slingx help [COMMAND]`
 
@@ -89,7 +84,7 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.1/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
 
 ## `slingx import`
 
@@ -100,7 +95,7 @@ USAGE
   $ slingx import
 ```
 
-_See code: [src/commands/import.js](https://github.com/2019/slingx/blob/v0.0.8/src/commands/import.js)_
+_See code: [src/commands/import.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/import.js)_
 
 ## `slingx move`
 
@@ -111,7 +106,7 @@ USAGE
   $ slingx move
 ```
 
-_See code: [src/commands/move.js](https://github.com/2019/slingx/blob/v0.0.8/src/commands/move.js)_
+_See code: [src/commands/move.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/move.js)_
 
 ## `slingx query`
 
@@ -122,7 +117,7 @@ USAGE
   $ slingx query
 ```
 
-_See code: [src/commands/query.js](https://github.com/2019/slingx/blob/v0.0.8/src/commands/query.js)_
+_See code: [src/commands/query.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/query.js)_
 <!-- commandsstop -->
 
 ## Contributing
