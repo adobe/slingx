@@ -1,7 +1,7 @@
 {
     "name": "slingx",
     "description": "A comprehensive toolkit AEM Administrators for Sling CRUD Operations",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Adobe",
     "bin": {
         "slingx": "./bin/run"

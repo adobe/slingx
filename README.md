@@ -6,7 +6,6 @@ A comprehensive toolkit AEM Administrators for Sling CRUD Operations
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/slingx.svg)](https://npmjs.org/package/slingx)
 [![Downloads/week](https://img.shields.io/npm/dw/slingx.svg)](https://npmjs.org/package/slingx)
-[![License](https://img.shields.io/npm/l/slingx.svg)](https://github.com/2019/slingx/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -19,7 +18,7 @@ $ npm install -g slingx
 $ slingx COMMAND
 running command...
 $ slingx (-v|--version|version)
-slingx/1.0.0 darwin-x64 node-v10.13.0
+slingx/1.0.1 darwin-x64 node-v10.13.0
 $ slingx --help [COMMAND]
 USAGE
   $ slingx COMMAND
@@ -28,13 +27,18 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`slingx copy`](#slingx-copy)
-* [`slingx create`](#slingx-create)
-* [`slingx delete`](#slingx-delete)
-* [`slingx help [COMMAND]`](#slingx-help-command)
-* [`slingx import`](#slingx-import)
-* [`slingx move`](#slingx-move)
-* [`slingx query`](#slingx-query)
+- [slingx](#slingx)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`slingx copy`](#slingx-copy)
+  - [`slingx create`](#slingx-create)
+  - [`slingx delete`](#slingx-delete)
+  - [`slingx help [COMMAND]`](#slingx-help-command)
+  - [`slingx import`](#slingx-import)
+  - [`slingx move`](#slingx-move)
+  - [`slingx query`](#slingx-query)
+  - [Contributing](#contributing)
+  - [Licensing](#licensing)
 
 ## `slingx copy`
 
@@ -45,7 +49,7 @@ USAGE
   $ slingx copy
 ```
 
-_See code: [src/commands/copy.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/copy.js)_
+_See code: [src/commands/copy.js](https://github.com/adobe/slingx/blob/v1.0.1/src/commands/copy.js)_
 
 ## `slingx create`
 
@@ -56,7 +60,7 @@ USAGE
   $ slingx create
 ```
 
-_See code: [src/commands/create.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/create.js)_
+_See code: [src/commands/create.js](https://github.com/adobe/slingx/blob/v1.0.1/src/commands/create.js)_
 
 ## `slingx delete`
 
@@ -67,7 +71,7 @@ USAGE
   $ slingx delete
 ```
 
-_See code: [src/commands/delete.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/delete.js)_
+_See code: [src/commands/delete.js](https://github.com/adobe/slingx/blob/v1.0.1/src/commands/delete.js)_
 
 ## `slingx help [COMMAND]`
 
@@ -95,7 +99,7 @@ USAGE
   $ slingx import
 ```
 
-_See code: [src/commands/import.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/import.js)_
+_See code: [src/commands/import.js](https://github.com/adobe/slingx/blob/v1.0.1/src/commands/import.js)_
 
 ## `slingx move`
 
@@ -106,7 +110,7 @@ USAGE
   $ slingx move
 ```
 
-_See code: [src/commands/move.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/move.js)_
+_See code: [src/commands/move.js](https://github.com/adobe/slingx/blob/v1.0.1/src/commands/move.js)_
 
 ## `slingx query`
 
@@ -117,7 +121,7 @@ USAGE
   $ slingx query
 ```
 
-_See code: [src/commands/query.js](https://github.com/adobe/slingx/blob/v1.0.0/src/commands/query.js)_
+_See code: [src/commands/query.js](https://github.com/adobe/slingx/blob/v1.0.1/src/commands/query.js)_
 <!-- commandsstop -->
 
 ## Contributing
